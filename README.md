@@ -1,9 +1,9 @@
 # Entrega_Intermedia_Sebastian_Moreno
-Entrega intermedia del proyecto final de coder
+- Entrega intermedia del proyecto final de coder
 1. Abrir Git Bash para Windows o una terminal para Linux/Unix.
 2. Seleccionar alguna carpeta de preferencia
 3. Utilizar comando
-cd got clone https://github.com/sealmoar/Entrega_Intermedia_Sebastian_Moreno.git
+cd git clone https://github.com/sealmoar/Entrega_Intermedia_Sebastian_Moreno.git
 4. Abrir VS Code y una terminal allí
 code .
 En seguida en VSCode damos Ctrl+j o Terminal/New Terminal y en esta terminal seguimos ejecutando los comandos que siguen a continuación.
