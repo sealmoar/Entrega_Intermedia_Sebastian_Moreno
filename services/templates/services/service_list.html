@@ -1,0 +1,21 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+
+{% block main_content %}
+<div>
+    <a class="btn btn-secondary" href="{% url 'services:service-add' %}">Crear nuevo Servicio</a>
+</div>
+{% for service in services %}
+
+<div>
+    <div class="container-md">
+        <h2>Ofrecemos servicio de {{ service.name }}</h2>
+        <h3>El valor es de: {{ service.price }} COP</h3>
+    </div>
+</div>
+<!-- Divider-->
+<hr/>
+{% endfor %}
+
+{% endblock %}

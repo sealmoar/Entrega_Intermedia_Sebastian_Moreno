@@ -1,0 +1,15 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+
+{% block main_content %}
+<div>
+    <div>
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="btn btn-primary" value="Guardar Dueño"/>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "home/index.html" %}
+{% load static %}
+
+
+{% block main_content %}
+<div>
+    <a class="btn btn-secondary" href="{% url 'pets:pet-add' %}">Crear nueva Mascota</a>
+</div>
+{% for pet in pets %}
+
+<div>
+    <div class="container-md">
+        <h2>Hola soy {{ pet.name }}</h2>
+        <h3>Soy un: {{ pet.animal }} {{ pet.breed }}</h3>
+        <h3>tengo: {{ pet.age }}</h3>
+    </div>
+</div>
+<!-- Divider-->
+<hr/>
+{% endfor %}
+
+{% endblock %}
